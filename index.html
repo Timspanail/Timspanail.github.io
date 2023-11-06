@@ -1,20 +1,124 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tím Spa & Nail</title>
     <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            background-color: #c9c0c0;
+            line-height: 1.6;
+        }
+
+        header {
+            background-color: #673ab7;
+            color: white;
+            text-align: center;
+            padding: 1em;
+        }
+
+        nav {
+            background-color: #52381088;
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+        }
+
+        nav li {
+            float: left;
+        }
+
+        nav a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        section {
+            padding: 20px;
+            text-align: center;
+        }
+
+        section_img {
+            padding: 20px;
+            text-align: left;
+        }
+
+        #home img,
+        #about img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 50%;
+            margin-top: 20px;
+        }
+
+        .image-gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+            margin-top: 20px;
+        }
+
+        .image-gallery img {
+            width: 30%;
+            margin-bottom: 20px;
+        }
+
+        .customer-review img {
+            border-radius: 50%;
+            margin: 10px 0;
+            max-width: 80px;
+            height: auto;
+            text-align: center;
+        }
+
+        .star-rating {
+            display: flex;
+            align-items: center;
+            justify-content: left;
+            margin-top: 10px;
+        }
+
+        .star-rating span {
+            color: #ff9800;
+            font-size: 20px;
+            margin-right: 5px;
+        }
+
+        footer {
+            background-color: #673ab7;
+            color: white;
+            text-align: center;
+            padding: 1em;
+            position: 0;
+            bottom: 1;
+            width: 100%;
+        }
+    </style>
 </head>
+
 <body>
 
     <header>
-        <h1> Tím Spa & Nail </h1>
+        <h1>Tím Spa & Nail</h1>
         <nav>
             <ul>
                 <li><a href="#home">Trang Chủ</a></li>
                 <li><a href="#services">Dịch Vụ</a></li>
                 <li><a href="#about">Về Chúng Tôi</a></li>
+                <li><a href="#contact">Liên Hệ</a></li>
             </ul>
         </nav>
     </header>
@@ -22,6 +126,7 @@
     <section id="home">
         <h2>Chào mừng bạn đến với Tím Spa & Nail</h2>
         <p>Trải nghiệm làn da tươi trẻ và sức khỏe hoàn hảo tại spa chúng tôi.</p>
+        <img src="logo.jpg" alt="Spa Image">
     </section>
 
     <section id="services">
@@ -36,17 +141,63 @@
     <section id="about">
         <h2>Về Chúng Tôi</h2>
         <p>Chúng tôi tự hào mang lại dịch vụ chăm sóc sức khỏe và làm đẹp chất lượng cao.</p>
-    </section>
 
-    <section id="contact">
-        <h2>Liên Hệ</h2>
-        <p>Địa chỉ: Xóm 2 Thủy Triều, Cam Hải Đông, Cam Lâm, Khánh Hòa 57000, Việt Nam</p>
-        <p>Điện thoại: (+84) 826 708 901 </p>
+        <div class="image-gallery">
+            <img src="10.jpg" alt="Team Member 1">
+            <img src="11.jpg" alt="Team Member 2">
+            <img src="12.jpg" alt="Team Member 3">
+            <img src="14.jfif" alt="Team Member 4">
+            <img src="15.jfif" alt="Team Member 5">
+            <img src="16.jpg" alt="Team Member 6">
+        </div>
     </section>
+    <section_img id="about">
+        <h2>Đánh giá của khách hàng</h2>
+        <div class="customer-review">
+            <p><strong>Đánh giá bởi:</strong></p>
+            <p><img src="1.jfif" alt="Customer Avatar">  Nguyễn Thị Anh</p>
+            <div class="star-rating">
+                <span>&#9733;</span><span>&#9733;</span><span>&#9733;</span><span>&#9733;</span><span>&#9733;</span>
+            </div>
+            <p>"Dịch vụ tuyệt vời! Tôi rất hài lòng với trải nghiệm của mình tại Tím Spa & Nail."</p>
+        </div>
 
+        <div class="customer-review">
+            <p><strong>Đánh giá bởi:</strong></p>
+            <p><img src="2.jfif" alt="Customer Avatar"> Trần Văn Hải</p>
+            <div class="star-rating">
+                <span>&#9733;</span><span>&#9733;</span><span>&#9733;</span><span>&#9733;</span><span>&#9733;</span>
+            </div>
+            <p>"Đội ngũ nhân viên rất chuyên nghiệp và thân thiện. Sẽ quay lại!"</p>
+        </div>
+
+        <div class="customer-review">
+            <p><strong>Đánh giá bởi:</strong></p>
+            <p><img src="3.jfif" alt="Customer Avatar"> Nguyễn Minh Quang</p>
+            <div class="star-rating">
+                <span>&#9733;</span><span>&#9733;</span><span>&#9733;</span><span>&#9733;</span><span>&#9733;</span>
+            </div>
+            <p>"Tuyệt vời!! Dịch vụ rất chuyên nghiệp và thân thiện"</p>
+        </div>
+
+        <div class="customer-review">
+            <p><strong>Đánh giá bởi:</strong></p>
+            <p><img src="4.jfif" alt="Customer Avatar"> Phạm Minh Châu</p>
+            <div class="star-rating">
+                <span>&#9733;</span><span>&#9733;</span><span>&#9733;</span><span>&#9733;</span><span>&#9733;</span>
+            </div>
+            <p>"Dịch vụ tốt, không gian thoải mái. Chắc chắn sẽ quay lại!"</p>
+        </div>
+    </section_img>
     <footer>
+        <section id="contact">
+            <h2>Liên Hệ</h2>
+            <p>Địa chỉ: Xóm 2 Thủy Triều, Cam Hải Đông, Cam Lâm, Khánh Hòa 57000, Việt Nam</p>
+            <p>Điện thoại: (+84) 826 708 901 </p>
+        </section>
         <p>&copy; 2023 Tím Spa & Nail. All rights reserved.</p>
     </footer>
 
 </body>
+
 </html>
