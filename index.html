@@ -9,7 +9,7 @@
     <style>
         body {
             font-family: 'Arial', sans-serif;
-            margin: 0;
+            margin: 10px;
             padding: 0;
             box-sizing: border-box;
             background-color: #c9c0c0;
@@ -21,10 +21,12 @@
             color: white;
             text-align: center;
             padding: 1em;
+            border-radius: 20px;
         }
 
         nav {
             background-color: #52381088;
+            border-radius: 10px;
         }
 
         nav ul {
@@ -58,10 +60,11 @@
 
         #home img,
         #about img {
-            max-width: 100%;
+            max-width: 50%;
             height: auto;
             border-radius: 50%;
-            margin-top: 20px;
+            margin-top: 0px;
+            margin-bottom: 0px;
         }
 
         .image-gallery {
@@ -79,8 +82,8 @@
         .customer-review img {
             border-radius: 50%;
             margin: 10px 0;
-            max-width: 80px;
-            height: auto;
+            height: 30px;
+            width: 30px;
             text-align: center;
         }
 
@@ -114,7 +117,8 @@
     </header>
 
     <section id="home">
-        <h2>Chào mừng bạn đến với Tím Spa & Nail</h2>
+        <h2>Chào mừng bạn đến với</h2>
+        <h2>Tím Spa & Nail</h2>
         <p>Trải nghiệm làn da tươi trẻ và sức khỏe hoàn hảo tại spa chúng tôi.</p>
         <img src="logo.jpg" alt="Spa Image">
     </section>
@@ -131,6 +135,11 @@
     <section id="about">
         <h2>Về Chúng Tôi</h2>
         <p>Chúng tôi tự hào mang lại dịch vụ chăm sóc sức khỏe và làm đẹp chất lượng cao.</p>
+        <p>Tím Spa & Nail tự hào là địa chỉ hàng đầu dành cho sức khỏe và làm đẹp tại thành phố, nơi chúng tôi cam kết mang đến cho khách hàng những trải nghiệm không gian thư giãn tuyệt vời nhất.</p>
+        <p>Với đội ngũ chuyên gia spa chất lượng cao và đầy đủ kinh nghiệm, chúng tôi cam kết cung cấp những dịch vụ spa và chăm sóc da hàng đầu. Chúng tôi sử dụng các sản phẩm chăm sóc da chất lượng để đảm bảo rằng mọi liệu pháp đều đem lại kết quả tốt nhất cho làn da của bạn.</p>
+        <p>Tại Tím Spa & Nail, chúng tôi không chỉ tập trung vào việc cải thiện vẻ ngoại hình của bạn mà còn đề cao sự thoải mái và tinh thần thư giãn. Không gian sang trọng, âm nhạc nhẹ nhàng, và không khí ấm áp sẽ giúp bạn hoàn toàn thư giãn và quên đi những áp lực hàng ngày.</p>
+        <p>Chúng tôi cũng tự hào với đội ngũ nhân viên chuyên nghiệp, tận tâm và thân thiện. Mỗi thành viên của chúng tôi được đào tạo chuyên sâu để đảm bảo rằng bạn sẽ nhận được sự phục vụ tốt nhất từ chúng tôi.</p>
+
 
         <div class="image-gallery">
             <img src="10.jpg" alt="Team Member 1">
@@ -144,8 +153,8 @@
     <section_img id="about">
         <h2>Đánh giá của khách hàng</h2>
         <div class="customer-review">
-            <p><strong>Đánh giá bởi: Nguyễn Thị Anh</strong></p>
-            <p><img src="1.jfif" alt="Customer Avatar"></p>
+            <p><strong>Đánh giá bởi:</strong></p>
+            <p><img src="1.jfif" alt="Customer Avatar"> Nguyễn Thị Anh</p>
             <div class="star-rating">
                 <span>&#9733;</span><span>&#9733;</span><span>&#9733;</span><span>&#9733;</span><span>&#9733;</span>
             </div>
@@ -153,8 +162,40 @@
         </div>
 
         <div class="customer-review">
-            <p><strong>Đánh giá bởi:</strong> Trần Văn Hải</p>
-            <p><img src="2.jfif" alt="Customer Avatar"></p>
+            <p><strong>Đánh giá bởi:</strong></p>
+            <p><img src="nu_han_1.jpg" alt="Customer Avatar"> Lee Ji-eun (이지은)</p>
+            <div class="star-rating">
+                <span>&#9733;</span><span>&#9733;</span><span>&#9733;</span><span>&#9733;</span><span>&#9733;</span>
+            </div>
+            <p>"팀 스파 & 네일은 휴식과 아름다움을 위한 최고의 장소 중 하나입니다. 강력히 추천합니다!"</p>
+            <!-- <p>"Tím Spa & Nail là một trong những địa điểm tuyệt vời nhất để nghỉ ngơi và trở nên đẹp đẽ. Rất đáng khuyến khích!"</p>
+            <p><em>Giới tính: Nữ</em></p> -->
+        </div>
+
+        <div class="customer-review">
+            <p><strong>Đánh giá bởi:</strong></p>
+            <p><img src="nguoi-han-quoc-1.jpg" alt="Customer Avatar"> Kim Ji-young (김지영)</p>
+            <div class="star-rating">
+                <span>&#9733;</span><span>&#9733;</span><span>&#9733;</span><span>&#9733;</span><span>&#9733;</span>
+            </div>
+            <p>"너무 훌륭한 서비스! 팀 스파 & 네일에서의 경험에 대해 매우 만족했습니다."</p>
+            <!-- "Dịch vụ tuyệt vời! Tôi rất hài lòng với trải nghiệm của mình tại Tím Spa & Nail." -->
+        </div>
+
+        <div class="customer-review">
+            <p><strong>Đánh giá bởi:</strong></p>
+            <p><img src="nu_han_2.jpeg" alt="Customer Avatar"> Choi Min-ji (최민지)</p>
+            <div class="star-rating">
+                <span>&#9733;</span><span>&#9733;</span><span>&#9733;</span><span>&#9733;</span><span>&#9733;</span>
+            </div>
+            <p>"이 곳에서의 스파 경험은 정말로 환상적이었습니다. 직원들은 항상 웃고 친절하며 서비스는 일류입니다."</p>
+        </div>
+        <!-- <p>"Trải nghiệm spa ở đây thực sự tuyệt vời. Nhân viên luôn vui vẻ và thân thiện, dịch vụ đạt tiêu chuẩn hàng đầu."</p>
+        <p><em>Giới tính: Nữ</em></p> -->
+
+        <div class="customer-review">
+            <p><strong>Đánh giá bởi:</strong></p>
+            <p><img src="2.jfif" alt="Customer Avatar"> Trần Văn Hải</p>
             <div class="star-rating">
                 <span>&#9733;</span><span>&#9733;</span><span>&#9733;</span><span>&#9733;</span><span>&#9733;</span>
             </div>
@@ -162,8 +203,8 @@
         </div>
 
         <div class="customer-review">
-            <p><strong>Đánh giá bởi:</strong> Nguyễn Minh Quang</p>
-            <p><img src="3.jfif" alt="Customer Avatar"></p>
+            <p><strong>Đánh giá bởi:</strong></p>
+            <p><img src="3.jfif" alt="Customer Avatar"> Nguyễn Minh Quang</p>
             <div class="star-rating">
                 <span>&#9733;</span><span>&#9733;</span><span>&#9733;</span><span>&#9733;</span><span>&#9733;</span>
             </div>
@@ -171,12 +212,23 @@
         </div>
 
         <div class="customer-review">
-            <p><strong>Đánh giá bởi:</strong> Phạm Minh Châu</p>
-            <p><img src="4.jfif" alt="Customer Avatar"></p>
+            <p><strong>Đánh giá bởi:</strong></p>
+            <p><img src="4.jfif" alt="Customer Avatar"> Phạm Minh Châu</p>
             <div class="star-rating">
                 <span>&#9733;</span><span>&#9733;</span><span>&#9733;</span><span>&#9733;</span><span>&#9733;</span>
             </div>
             <p>"Dịch vụ tốt, không gian thoải mái. Chắc chắn sẽ quay lại!"</p>
+        </div>
+
+        <div class="customer-review">
+            <p><strong>Đánh giá bởi:</strong></p>
+            <p><img src="nam_han.jpg" alt="Customer Avatar"> Park Min-ho (박민호)</p>
+            <div class="star-rating">
+                <span>&#9733;</span><span>&#9733;</span><span>&#9733;</span><span>&#9733;</span><span>&#9733;</span>
+            </div>
+            <p>"팀 스파 & 네일에서의 경험이 정말 훌륭했습니다. 서비스가 매우 전문적이고 직원들은 매우 친절합니다."</p>
+            <!-- <p>"Trải nghiệm tại Tím Spa & Nail thực sự tuyệt vời. Dịch vụ rất chuyên nghiệp và nhân viên rất thân thiện."</p>
+            <p><em>Giới tính: Nam</em></p> -->
         </div>
     </section_img>
     
@@ -187,5 +239,4 @@
             <p>&copy; 2023 Tím Spa & Nail. All rights reserved.</p>
     </section>
 </body>
-
 </html>
