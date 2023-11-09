@@ -1,0 +1,92 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 10px;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #c9c0c0;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #673ab7;
+    color: white;
+    text-align: center;
+    padding: 1em;
+    border-radius: 20px;
+}
+
+nav {
+    background-color: #52381088;
+    border-radius: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav li {
+    float: left;
+}
+
+nav a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+section {
+    padding: 20px;
+    text-align: center;
+}
+
+section_img {
+    padding: 20px;
+    text-align: left;
+}
+
+#home img,
+#about img {
+    max-width: 50%;
+    height: auto;
+    border-radius: 50%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.image-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+
+.image-gallery img {
+    width: 30%;
+    margin-bottom: 20px;
+}
+
+.customer-review img {
+    border-radius: 50%;
+    margin: 10px 0;
+    height: 30px;
+    width: 30px;
+    text-align: center;
+}
+
+.star-rating {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    margin-top: 10px;
+}
+
+.star-rating span {
+    color: #ff9800;
+    font-size: 20px;
+    margin-right: 5px;
+}
